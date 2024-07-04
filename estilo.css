@@ -1,1 +1,67 @@
 
+/* Reset de estilos básico */
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Branco */
+    color: #333; /* Cor de texto principal */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #f7b5cc; /* Rosa claro */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do container principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilo dos produtos */
+.produto {
+    background-color: #fff; /* Branco */
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+/* Estilo das imagens dos produtos */
+.produto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Estilo dos títulos dos produtos */
+.produto h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #333; /* Cor de texto principal */
+}
+
+/* Estilo dos links */
+a {
+    color: #f7b5cc; /* Rosa claro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
